@@ -1,0 +1,5 @@
+{
+  "name": "SkyControl ATM Interface",
+  "description": "Advanced Air Traffic Management interface showing multi-trajectory flight paths, sector boundaries, and prohibited zones.",
+  "requestFramePermissions": []
+}
