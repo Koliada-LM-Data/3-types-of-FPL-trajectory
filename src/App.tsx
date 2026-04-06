@@ -185,7 +185,7 @@ export default function App() {
               >
                 <div className="flex items-center gap-3">
                   <div className="w-3 h-3 rounded-full bg-blue-500 shadow-[0_0_8px_rgba(59,130,246,0.5)]" />
-                  <span className="text-xs font-medium text-white">Pre-Activation</span>
+                  <span className="text-xs font-medium text-white">Actual Flown</span>
                 </div>
                 <ChevronRight className={cn("w-4 h-4 text-white/40 transition-transform", showPreActivation && "rotate-90")} />
               </button>
@@ -199,7 +199,7 @@ export default function App() {
               >
                 <div className="flex items-center gap-3">
                   <div className="w-3 h-3 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.5)]" />
-                  <span className="text-xs font-medium text-white">Actual Flown</span>
+                  <span className="text-xs font-medium text-white">Pre-Activation</span>
                 </div>
                 <ChevronRight className={cn("w-4 h-4 text-white/40 transition-transform", showActual && "rotate-90")} />
               </button>
